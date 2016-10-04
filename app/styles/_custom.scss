@@ -1,3 +1,33 @@
 body {
   font-size: 16px;
+  background-color: #fafafa;
+}
+
+#home-banner {
+  background: url("images/unsplash-thomas-lefebvre.jpg") center / cover;
+  height: 250px;
+}
+
+.page-content {
+  // padding-top: 50px;
+}
+
+.text-center {
+  justify-content: center;
+}
+
+.align-center {
+  text-align: center;
+}
+
+#news {
+  width: 100%;
+}
+
+#contact {
+  width: 100%;
+}
+
+#upcoming {
+  width: 100%;
 }

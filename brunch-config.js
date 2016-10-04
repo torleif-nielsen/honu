@@ -1,7 +1,7 @@
 module.exports = {
   paths: { public: "static" },
   files: {
-    javascripts: { joinTo: "app.js" },
+    javascripts: { joinTo: 'app.js' },
     stylesheets: { joinTo: "app.css" }
   },
   plugins: {

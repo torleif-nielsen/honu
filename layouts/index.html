@@ -3,6 +3,23 @@
 {{ partial "header.html" . }}
 
 <main class="mdl-layout__content page-content">
+  <div id="home-banner">
+  </div>
+  <header class="mdl-layout__header mdl-layout--small-large-only">
+    <div class="mdl-layout__header-row">
+      <!-- Title -->
+      <span class="mdl-layout-title">{{ .Site.Title }}</span>
+      <!-- Add spacer, to align navigation to the right -->
+      <div class="mdl-layout-spacer"></div>
+      <!-- Navigation. We hide it in small screens. -->
+      <nav class="mdl-navigation mdl-layout--large-screen-only">
+        <a class="mdl-navigation__link" href="">Link</a>
+        <a class="mdl-navigation__link" href="">Link</a>
+        <a class="mdl-navigation__link" href="">Link</a>
+        <a class="mdl-navigation__link" href="">Link</a>
+      </nav>
+    </div>
+  </header>
   <div class="mdl-grid text-center">
     <div class="mdl-cell mdl-cell--6-col">
       <h1 class="align-center">Welcome to {{ .Site.Title }}</h1>

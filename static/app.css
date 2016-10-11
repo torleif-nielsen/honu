@@ -12422,26 +12422,36 @@ _:-ms-input-placeholder, :root .mdl-slider.mdl-slider.is-upgraded {
   font-size: 16px; }
 
 /* line 5, /home/tor/Repos/honu/app/styles/_overrides.scss */
+.mdl-card__subtitle-text {
+  color: rgba(0,0,0, 0.87); }
+
+/* line 9, /home/tor/Repos/honu/app/styles/_overrides.scss */
+.mdl-card__supporting-text {
+  color: rgba(0,0,0, 0.87);
+  padding-top: 0px;
+  padding-bottom: 16px; }
+
+/* line 15, /home/tor/Repos/honu/app/styles/_overrides.scss */
 h1 {
   font-size: 45px; }
 
-/* line 9, /home/tor/Repos/honu/app/styles/_overrides.scss */
+/* line 19, /home/tor/Repos/honu/app/styles/_overrides.scss */
 h2 {
   font-size: 36px; }
 
-/* line 13, /home/tor/Repos/honu/app/styles/_overrides.scss */
+/* line 23, /home/tor/Repos/honu/app/styles/_overrides.scss */
 h3 {
   font-size: 28px; }
 
-/* line 17, /home/tor/Repos/honu/app/styles/_overrides.scss */
+/* line 27, /home/tor/Repos/honu/app/styles/_overrides.scss */
 h4 {
   font-size: 24px; }
 
-/* line 21, /home/tor/Repos/honu/app/styles/_overrides.scss */
+/* line 31, /home/tor/Repos/honu/app/styles/_overrides.scss */
 h5 {
   font-size: 20px; }
 
-/* line 25, /home/tor/Repos/honu/app/styles/_overrides.scss */
+/* line 35, /home/tor/Repos/honu/app/styles/_overrides.scss */
 h6 {
   font-size: 18px; }
 
@@ -12455,23 +12465,35 @@ body {
   background: url("images/unsplash-thomas-lefebvre.jpg") center/cover;
   height: 250px; }
 
+/* line 11, /home/tor/Repos/honu/app/styles/_custom.scss */
+.block-display {
+  display: block; }
+
 /* line 15, /home/tor/Repos/honu/app/styles/_custom.scss */
+.full-width {
+  width: auto; }
+
+/* line 19, /home/tor/Repos/honu/app/styles/_custom.scss */
+.auto-height {
+  min-height: auto; }
+
+/* line 27, /home/tor/Repos/honu/app/styles/_custom.scss */
 .text-center {
   justify-content: center; }
 
-/* line 19, /home/tor/Repos/honu/app/styles/_custom.scss */
+/* line 31, /home/tor/Repos/honu/app/styles/_custom.scss */
 .align-center {
   text-align: center; }
 
-/* line 23, /home/tor/Repos/honu/app/styles/_custom.scss */
+/* line 35, /home/tor/Repos/honu/app/styles/_custom.scss */
 #news {
   width: 100%; }
 
-/* line 27, /home/tor/Repos/honu/app/styles/_custom.scss */
+/* line 39, /home/tor/Repos/honu/app/styles/_custom.scss */
 #contact {
   width: 100%; }
 
-/* line 31, /home/tor/Repos/honu/app/styles/_custom.scss */
+/* line 43, /home/tor/Repos/honu/app/styles/_custom.scss */
 #upcoming {
   width: 100%; }
 

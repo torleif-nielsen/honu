@@ -2,17 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>/</loc>
+    <loc>http://torleif.io/honu/</loc>
     <lastmod>2016-10-10T14:13:54-10:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/new_post/</loc>
+    <loc>http://torleif.io/honu/post/new_post/</loc>
     <lastmod>2016-10-10T14:13:54-10:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/welcome/</loc>
+    <loc>http://torleif.io/honu/post/welcome/</loc>
     <lastmod>2016-10-03T13:00:29-10:00</lastmod>
   </url>
   

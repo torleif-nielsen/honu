@@ -302,9 +302,9 @@ $tooltip-background-color: unquote("rgba(#{$palette-grey-700}, 0.9)") !default;
 
 /* ==========  Footer  ========== */
 
-$footer-bg-color: unquote("rgb(#{$palette-grey-800})") !default;
-$footer-color: unquote("rgb(#{$palette-grey-500})") !default;
-$footer-heading-color: unquote("rgb(#{$palette-grey-300})") !default;
+$footer-bg-color: unquote("rgb(#{$palette-blue-200})") !default;
+$footer-color: unquote("rgb(#{$text-color-primary})") !default;
+$footer-heading-color: unquote("rgb(#{$text-color-primary})") !default;
 $footer-button-fill-color: $footer-color !default;
 $footer-underline-color: $footer-color !default;
 
@@ -425,7 +425,7 @@ $footer-heading-line-height: (1.7 * $footer-heading-font-size) !default;
 $footer-btn-size: 36px  !default;
 
 /*mini-footer*/
-$padding: 16px !default;
+$padding: 8px !default;
 $footer-heading-font-size: 24px !default;
 $footer-heading-line-height: (1.5 * $footer-heading-font-size) !default;
 $footer-btn-size: 36px !default;

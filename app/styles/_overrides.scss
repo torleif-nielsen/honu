@@ -12,6 +12,10 @@
   padding-bottom: 16px;
 }
 
+.mdl-layout__container {
+  position: static;
+}
+
 h1 {
   font-size: 45px;
 }
@@ -34,4 +38,8 @@ h5 {
 
 h6 {
   font-size: 18px;
+}
+
+p {
+  font-size: 1em;
 }

@@ -1,0 +1,33 @@
+{{ partial "head.html" . }}
+{{ $baseurl := .Site.BaseURL }}
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+  <header class="mdl-layout__header">
+    <div class="mdl-layout__header-row">
+      <!-- Title -->
+      <span class="mdl-layout-title">{{ .Site.Title }}</span>
+      <div class="mdl-layout-spacer"></div>
+      <nav class="mdl-navigation mdl-layout--large-screen-only">
+        {{ partial "nav_links.html" . }}
+      </nav>
+    </div>
+  </header>
+  <div class="mdl-layout__drawer">
+    <span class="mdl-layout-title">{{ .Site.Title }}</span>
+    <nav class="mdl-navigation">
+      {{ partial "nav_links.html" . }}
+    </nav>
+  </div>
+  <main class="post-main mdl-layout__content">
+    <div class="post-container mdl-grid">
+      <!-- Column offset hack for only large screens -->
+      <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+      <div class="post-content mdl-color--white mdl-shadow--4dp mdl-cell mdl-cell--8-col">
+        <h1 id="title">{{ .Title }}</h1>
+        <article id="content">
+          {{ .Content }}
+        </article>
+      </div>
+    </div>
+  </main>
+
+{{ partial "footer.html" . }}

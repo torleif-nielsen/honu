@@ -1,4 +1,4 @@
-<a class="mdl-navigation__link" href="{{ .Site.BaseURL }}">Home</a>
-<a class="mdl-navigation__link" href="">Link</a>
-<a class="mdl-navigation__link" href="">Link</a>
-<a class="mdl-navigation__link" href="">Link</a>
+{{ $currentNode := . }}
+{{ range .Site.Menus.main }}
+  <a class="mdl-navigation__link" href="{{ .URL }}">{{ .Name }}</a>
+{{ end }}

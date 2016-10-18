@@ -1,3 +1,22 @@
 baseurl = "http://torleif.io/honu/"
 languageCode = "en-us"
 title = "Honu"
+
+
+# Menu items for main navigation bar.
+[[menu.main]]
+  name = "Home"
+  url  = "/"
+  weight = 1
+[[menu.main]]
+  name = "About"
+  url  = "/about/"
+  weight = 2
+[[menu.main]]
+  name = "Members"
+  url  = "/members/"
+  weight = 3
+[[menu.main]]
+  name = "Calendar"
+  url  = "/calendar/"
+  weight = 4

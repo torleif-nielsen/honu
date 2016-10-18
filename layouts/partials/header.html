@@ -9,9 +9,6 @@
   <div class="mdl-layout__drawer mdl-layout--small-screen-only">
     <span class="mdl-layout-title">{{ .Site.Title }}</span>
     <nav class="mdl-navigation">
-      <a class="mdl-navigation__link" href="">Link</a>
-      <a class="mdl-navigation__link" href="">Link</a>
-      <a class="mdl-navigation__link" href="">Link</a>
-      <a class="mdl-navigation__link" href="">Link</a>
+      {{ partial "nav_links.html" . }}
     </nav>
   </div>

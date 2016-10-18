@@ -39,5 +39,35 @@
 </description>
     </item>
     
+    <item>
+      <title></title>
+      <link>http://torleif.io/honu/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://torleif.io/honu/about/</guid>
+      <description>&lt;p&gt;Hello from about&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://torleif.io/honu/calendar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://torleif.io/honu/calendar/</guid>
+      <description>&lt;p&gt;Hello from content calendar&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://torleif.io/honu/members/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://torleif.io/honu/members/</guid>
+      <description>&lt;p&gt;Hello from content members&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

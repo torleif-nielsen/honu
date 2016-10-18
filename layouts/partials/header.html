@@ -12,3 +12,18 @@
       {{ partial "nav_links.html" . }}
     </nav>
   </div>
+  <main class="mdl-layout__content">
+    <div id="home-banner">
+    </div>
+    <header class="mdl-layout__header mdl-layout--large-only">
+      <div class="mdl-layout__header-row">
+        <!-- Title -->
+        <span class="mdl-layout-title">{{ .Site.Title }}</span>
+        <!-- Add spacer, to align navigation to the right -->
+        <div class="mdl-layout-spacer"></div>
+        <!-- Navigation. We hide it in small screens. -->
+        <nav class="mdl-navigation mdl-layout--large-screen-only">
+          {{ partial "nav_links.html" . }}
+        </nav>
+      </div>
+    </header>

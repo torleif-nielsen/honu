@@ -11,12 +11,15 @@ title = "Honu"
 [[menu.main]]
   name = "About"
   url  = "/about/"
+  identifier = "about"
   weight = 2
 [[menu.main]]
   name = "Members"
+  identifier = "members"
   url  = "/members/"
   weight = 3
 [[menu.main]]
   name = "Calendar"
+  identifier = "calendar"
   url  = "/calendar/"
   weight = 4
